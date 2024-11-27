@@ -1,0 +1,41 @@
+{
+  "thread": {
+    "thread_id": "12345",
+    "participants": [
+      {
+        "username": "user1",
+        "user_id": "001"
+      },
+      {
+        "username": "user2",
+        "user_id": "002"
+      }
+    ],
+    "messages": [
+      {
+        "message_id": "msg001",
+        "sender_id": "001",
+        "receiver_id": "002",
+        "timestamp": "2024-11-28T09:00:00Z",
+        "content": "Hey, how are you?",
+        "type": "text"
+      },
+      {
+        "message_id": "msg002",
+        "sender_id": "002",
+        "receiver_id": "001",
+        "timestamp": "2024-11-28T09:05:00Z",
+        "content": "I'm good, thanks! What about you?",
+        "type": "text"
+      },
+      {
+        "message_id": "msg003",
+        "sender_id": "001",
+        "receiver_id": "002",
+        "timestamp": "2024-11-28T09:10:00Z",
+        "content": "Doing great! Let's catch up soon.",
+        "type": "text"
+      }
+    ]
+  }
+}
